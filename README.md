@@ -60,10 +60,3 @@ Los archivos `Ejercicio_01.py` a `Ejercicio_06.py` traen el enunciado y los dato
 | `Ejercicio_05.py` | Reescribir una función corta como `lambda` |
 | `Ejercicio_06.py` | Armar un closure que recuerde un saludo |
 
-## Cómo ejecutarlo
-
-Hace falta [Python 3](https://www.python.org/downloads/). Desde la carpeta del curso:
-
-```bash
-python 01_variables.py
-```
