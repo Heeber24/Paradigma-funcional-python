@@ -55,15 +55,15 @@ presentacion_f = f"Me llamo {nombre} y tengo {edad} años."
 print("F-strings:", presentacion_f)
 
 # Escape de caracteres
-cadena_escape = "Primera línea.\nSegunda línea.\tCon tabulación." #\N es salto de línea, \t es tabulación
+cadena_escape = "Primera línea.\nSegunda línea.\tCon tabulación." # \n es salto de línea, \t es tabulación
 print("Escape de caracteres:\n", cadena_escape)
 # Cadenas crudas (raw strings)
 cadena_cruda = r"C:\nueva_carpeta\archivo.txt" # La r antes de las comillas indica que es una cadena cruda
-cadena_no_cudra = "C:\\nueva_carpeta\\archivo.txt" # Equivalente sin usar raw string
+cadena_normal = "C:\\nueva_carpeta\\archivo.txt" # Equivalente sin usar raw string: cada \\ es una diagonal
 print("Cadena cruda:", cadena_cruda)
-print("Cadena sin raw string:", cadena_no_cudra)
+print("Cadena sin raw string:", cadena_normal)
 
-# Iterar sobre una cadena
+# Recorrer la cadena, letra por letra. El bucle for se explica en 07_bucles.py
 print("Iterar sobre cadena1:")
 for char in cadena1:
     print(char, end=' ')

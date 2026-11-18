@@ -1,3 +1,4 @@
+# Ejercicio 2 · tema 4.4 map, filter y reduce
 # Este ejercicio introduce la lógica condicional dentro de la función lambda y aplica el concepto de filtrado con filter sobre una lista de números.
 
 # Dada una lista de temperaturas registradas, utiliza la función filter junto con una función lambda 

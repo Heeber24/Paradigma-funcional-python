@@ -1,4 +1,4 @@
-#Operadores in Python
+# Operadores
 
 # Operadores Aritméticos
 a = 10

@@ -27,10 +27,11 @@ print("Potencia con exponente personalizado (2^3):", resultado_potencia_custom)
 
 
 # Función con número variable de argumentos
-def lista_elementos(*elementos): # * indica que la función puede recibir un número variable de argumentos es como un apuntador a una tupla o lista
-    """Función que recibe un número variable de nombres y los imprime."""
-    for elementos in elementos:
-        print("Nombre:", elementos)
+# El * junta en una tupla todos los valores que lleguen, sin pedirlos uno por uno
+def lista_elementos(*elementos):
+    """Recibe varios datos, los junta en una tupla y los imprime uno por uno."""
+    for elemento in elementos:
+        print("Elemento:", elemento)
 lista_elementos("Juan", "María", "Pedro", 23, True) # Se pueden pasar diferentes tipos de datos
 
 # Función con argumentos nombrados
@@ -39,33 +40,6 @@ def informacion_personal(nombre, edad, ciudad):
     print(f"Nombre: {nombre}, Edad: {edad}, Ciudad: {ciudad}")
 informacion_personal(edad=30, ciudad="Madrid", nombre="Lucía")
 
-# Función lambda (función anónima) estas funciones son útiles para operaciones simples y se definen en una sola línea
-# Ejemplo de función lambda para calcular el cuadrado de un número
-# lambda argumentos: expresión
-cuadrado = lambda x: x ** 2 
-print("Cuadrado de 6 usando función lambda:", cuadrado(6))
-
-# Sin función lambda
-def cuadrado_funcion(x):
-    """Función que calcula el cuadrado de un número."""
-    return x ** 2
-print("Cuadrado de 6 usando función normal:", cuadrado_funcion(6))
-
-
-# Otro ejemplo de función lambda para sumar dos números
-suma = lambda a, b: a + b
-print("Suma de 4 y 5 usando función lambda:", suma(4, 5))
-
-# Sin función lambda
-def suma_funcion(a, b):
-    """Función que suma dos números."""
-    return a + b
-print("Suma de 4 y 5 usando función normal:", suma_funcion(4, 5))   
-
-# La estructura de una funcion lambda es:
-# lambda argumentos: expresión
-# Las funciones lambda son útiles cuando se necesitan funciones pequeñas y rápidas sin la necesidad de definir una función completa con 'def'.
-# Sin embargo, para funciones más complejas o que requieran múltiples líneas de código, es mejor usar la definición tradicional con 'def'.
-# Ejemplo de uso de función lambda con funciones integradas como 'map' y 'filter'
-# Usando 'map' para aplicar una función lambda a cada elemento de una lista
+# Las funciones anónimas (lambda) están en 11_funciones_anonimas.py
+# Pasar una función a otra está en 10_funciones_orden_superior.py
 

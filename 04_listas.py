@@ -39,7 +39,7 @@ print("Longitud de la lista:", longitud)
 sublista = mi_lista[1:4]  # Elementos desde el índice 1 hasta el 3
 print("Sublista (índices 1 a 3):", sublista)
 
-# Iteración sobre la lista
+# Recorrer la lista, elemento por elemento. El bucle for se explica en 07_bucles.py
 print("Elementos de la lista:")
 for elemento in mi_lista:
     print(elemento)

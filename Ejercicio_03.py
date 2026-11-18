@@ -1,4 +1,5 @@
-# Este es el ejercicio más completo, ya que te exige combinar las tres Funciones de Orden Superior (filter, map, reduce) de forma secuencial para resolver un problema de cálculo.
+# Ejercicio 3 · tema 4.4 map, filter y reduce
+# Este es el ejercicio más completo, ya que te exige combinar filter, map y reduce de forma secuencial para resolver un problema de cálculo.
 
 # Dada una lista de tuplas que representan los ítems de un carrito de compras con el formato (nombre_producto, precio_unitario, cantidad_en_stock).
 # 1. Filtra (filter): Utiliza filter con una lambda para seleccionar solo los productos cuya cantidad en stock sea mayor que 5.

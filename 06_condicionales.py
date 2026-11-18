@@ -31,7 +31,7 @@ if numero > 0:
 else:
     print("El número es negativo o cero.")
 
-# Otra forma de saber si un número es positivo y paro o impar es mediante condiciones aritmeticas 
+# Otra forma de saber si un número es positivo y par o impar es uniendo las dos condiciones 
 num = 10
 if num > 0 and num % 2 == 0:
     print("El número es positivo y par.")
@@ -71,8 +71,9 @@ if valor_tupla in mi_tupla:
 else:
     print(f"El valor '{valor_tupla}' no se encuentra en la tupla.")
 
-# Ejemplo de uso de condicionales con diccionarios
-# Los diccionarios permiten almacenar pares clave-valor.
+# Un diccionario guarda pares clave-valor. La clave sirve para buscar el valor.
+# Se escribe entre llaves: {"nombre": "Ana", "edad": 25}
+# Aquí lo usamos para ver el if. Con in se pregunta si la clave existe.
 mi_diccionario = {"a": 1, "b": 2, "c": 3}
 clave_buscar = "b"
 if clave_buscar in mi_diccionario:

@@ -10,9 +10,10 @@ print("Tupla completa:", mi_tupla)
 print("Primer elemento:", mi_tupla[0])  # Accede al primer elemento
 print("Último elemento:", mi_tupla[-1])  # Accede al último elemento
 
-#Las tuplas son inmutables, no se pueden modificar sus elementos después de la creación
-#mi_tupla[1] = 25  # Esto generará un error
-#Sin embargo, se pueden realizar operaciones que generen nuevas tuplas
+# Las tuplas son inmutables: no se pueden modificar sus elementos después de crearlas.
+# mi_tupla[1] = 25  # Esto generará un error
+# Si hace falta otro valor, se crea una tupla nueva. La original sigue igual.
+# Esto se retoma en 09_caracteristicas_funcionales.py
 #Concatenación de tuplas
 otra_tupla = (40, 50)       
 tupla_concatenada = mi_tupla + otra_tupla
